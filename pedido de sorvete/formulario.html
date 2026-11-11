@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Pedido de Sorvete
+    <form method="post" action="test.jsp">
+        Nome: <input type="text" name="nome"> <br>
+        E-mail: <input type="email" name="email"> <br>
+        Tamanho: 
+        <input type="radio" name="tamanho" value="g" checked> Grande
+        <input type="radio" name="tamanho" value="m" > Medio
+        <input type="radio" name="tamanho" value="p" > Pequeno 
+        <br>
+        Sabor:<select name="sabor">
+            <option value="chocolate">Chocolate</option>
+            <option value="morango">Morango</option>
+            <option value="coco">Coco</option>
+        </select>
+        <br>
+        Adicionais:
+        <input type="checkbox" name="cobertura de ovomaltine" value="sim"> Cobertura de ovomaltine
+        <input type="checkbox" name="granulado" value="sim"> Granulado
+        <input type="checkbox" name="calda" value="sim"> Calda 
+        <br>
+        Data da entrega: <input type="date" name="dataEntrega"> <br>
+        <br>
+       comentario:<br>
+        <textarea name="mensagem" rows="10" cols="30"></textarea>
+       <br>
+       <input type="submit" >
+
+
+
+    </form>
+    </h1>
+</body>
+</html>
